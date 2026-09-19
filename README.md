@@ -111,38 +111,38 @@ HireTrack follows a strict, modular full-stack architecture ensuring decoupled a
 ```text
 HireTrack-Job-Portal/
 │
-├── client/
+├── client/                 # React frontend application
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   │   ├── auth/
-│   │   │   ├── seeker/
-│   │   │   └── recruiter/
-│   │   ├── layouts/
-│   │   ├── context/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   ├── utils/
-│   │   └── App.jsx
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Page components (Auth, Seeker, Recruiter)
+│   │   │   ├── auth/       # Login and Registration pages
+│   │   │   ├── seeker/     # Job Seeker dashboards and views
+│   │   │   └── recruiter/  # Recruiter management interfaces
+│   │   ├── layouts/        # Application layouts and wrappers
+│   │   ├── context/        # React Context (Auth state)
+│   │   ├── hooks/          # Custom React hooks
+│   │   ├── services/       # API integration and Axios setup
+│   │   ├── utils/          # Helper functions
+│   │   └── App.jsx         # Main React application component
 │   │
-│   └── package.json
+│   └── package.json        # Frontend dependencies
 │
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   ├── seed/
-│   ├── uploads/
-│   ├── server.js
-│   └── package.json
+├── server/                 # Node.js/Express backend API
+│   ├── config/             # Database connection and config
+│   ├── controllers/        # Request handlers and business logic
+│   ├── middleware/         # Auth, error, and upload middlewares
+│   ├── models/             # Mongoose database schemas
+│   ├── routes/             # API route definitions
+│   ├── services/           # Reusable backend services
+│   ├── utils/              # Backend helper functions
+│   ├── seed/               # Database seeder scripts
+│   ├── uploads/            # Temporary storage for uploaded resumes
+│   ├── server.js           # Backend entry point
+│   └── package.json        # Backend dependencies
 │
-├── Images/
-├── .gitignore
-└── README.md
+├── Images/                 # Documentation and README assets
+├── .gitignore              # Git ignored files
+└── README.md               # Project documentation
 ```
 
 ---
