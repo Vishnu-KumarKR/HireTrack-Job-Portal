@@ -38,32 +38,20 @@
 Below are some screenshots showing the features and layout of the system:
 
 ### Authentication & Access
-<img src="Images/01_landing.png" width="200">
-<img src="Images/04_login.png" width="200">
-<img src="Images/02_register.png" width="200">
-<img src="Images/20_register_recruiter.png" width="200">
+<img src="Images/01_landing.png" width="200">&nbsp;&nbsp;<img src="Images/04_login.png" width="200">&nbsp;&nbsp;<img src="Images/02_register.png" width="200">&nbsp;&nbsp;<img src="Images/20_register_recruiter.png" width="200">
 
 ### Recruiter Experience
-<img src="Images/05_recruiter_dashboard.png" width="200">
-<img src="Images/06_recruiter_jobs.png" width="200">
-<img src="Images/09_recruiter_applications.png" width="200">
-<img src="Images/11_recruiter_interviews.png" width="200">
-<br>
-<img src="Images/10_recruiter_interview_modal.png" width="200">
-<img src="Images/12_recruiter_notifications.png" width="200">
-<img src="Images/07_recruiter_edit_job.png" width="200">
+<img src="Images/05_recruiter_dashboard.png" width="200">&nbsp;&nbsp;<img src="Images/06_recruiter_jobs.png" width="200">&nbsp;&nbsp;<img src="Images/09_recruiter_applications.png" width="200">&nbsp;&nbsp;<img src="Images/11_recruiter_interviews.png" width="200">
+<br><br>
+<img src="Images/10_recruiter_interview_modal.png" width="200">&nbsp;&nbsp;<img src="Images/12_recruiter_notifications.png" width="200">&nbsp;&nbsp;<img src="Images/07_recruiter_edit_job.png" width="200">
 
 ### Job Seeker Experience
-<img src="Images/19_seeker_dashboard.png" width="200">
-<img src="Images/13_seeker_jobs.png" width="200">
-<img src="Images/14_seeker_job_details.png" width="200">
-<img src="Images/16_seeker_applications.png" width="200">
-<br>
+<img src="Images/19_seeker_dashboard.png" width="200">&nbsp;&nbsp;<img src="Images/13_seeker_jobs.png" width="200">&nbsp;&nbsp;<img src="Images/14_seeker_job_details.png" width="200">&nbsp;&nbsp;<img src="Images/16_seeker_applications.png" width="200">
+<br><br>
 <img src="Images/17_seeker_interviews.png" width="200">
 
 ### Validation & Edge Cases
-<img src="Images/03_register_validation_errors.png" width="200">
-<img src="Images/08_recruiter_create_job_errors.png" width="200">
+<img src="Images/03_register_validation_errors.png" width="200">&nbsp;&nbsp;<img src="Images/08_recruiter_create_job_errors.png" width="200">
 
 > **NOTE:** These screenshots reflect the comprehensive validation, dashboards, and modal designs present in the production-ready application.
 
