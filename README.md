@@ -1,4 +1,4 @@
-<h1 align="center">💼 HireTrack 💼</h1>
+<h1 align="center"> HireTrack — Job Portal & Applicant Tracking System</h1>
 
 ## Table of Contents
 - [Project Overview](#project-overview)
