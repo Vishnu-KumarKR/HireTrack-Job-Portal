@@ -106,6 +106,47 @@ HireTrack follows a strict, modular full-stack architecture ensuring decoupled a
 
 ---
 
+# 🗂️ Project Structure
+
+```text
+HireTrack-Job-Portal/
+│
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   │   ├── auth/
+│   │   │   ├── seeker/
+│   │   │   └── recruiter/
+│   │   ├── layouts/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── App.jsx
+│   │
+│   └── package.json
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── seed/
+│   ├── uploads/
+│   ├── server.js
+│   └── package.json
+│
+├── Images/
+├── .gitignore
+└── README.md
+```
+
+---
+
 # 🗄️ Database Structure
 
 Highly relational document structures referencing ObjectIds ensuring database normalization.
