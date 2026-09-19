@@ -34,148 +34,19 @@ The project is highly focused on:
 
 ---
 
-# 🚀 Features & Application Showcase
+# 🚀 Application Showcase & Features
 
-## 👤 1. Authentication & Role-Based Access
-
-HireTrack provides bulletproof authentication for both Job Seekers and Recruiters.
-
-<div align="center">
-  <img src="Images/01_landing.png" alt="Landing Page" width="300" style="border-radius: 8px; display: inline-block; margin-right: 5px; margin-bottom: 10px;" />
-  <img src="Images/04_login.png" alt="Login Screen" width="300" style="border-radius: 8px; display: inline-block; margin-right: 5px; margin-bottom: 10px;" />
-  <img src="Images/02_register.png" alt="Register Seeker" width="300" style="border-radius: 8px; display: inline-block; margin-bottom: 10px;" />
-  <img src="Images/20_register_recruiter.png" alt="Register Recruiter" width="455" style="border-radius: 8px; display: inline-block;" />
-</div>
-
-**Highlights:**
-* Users are greeted with a beautiful, responsive landing page.
-* Registration and login use stateless JWT and bcrypt password hashing.
-* Role-Based Access Control (RBAC) instantly routes users to their specific dashboards upon login.
-
----
-
-## 📊 2. Recruiter Dashboard
-
-The Recruiter Dashboard provides an eagle-eye overview of the entire recruitment pipeline.
-
-<div align="center">
-  <img src="Images/05_recruiter_dashboard.png" alt="Recruiter Dashboard with recruitment statistics and charts" width="850" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
-</div>
-
-**Highlights:**
-* The dashboard uses **Recharts** to beautifully visualize application data retrieved directly from the backend.
-* It displays Total Jobs, Published Jobs, Application Statistics, and Candidate Pipelines.
-* Visualizes real-time candidate distribution across Applied, Shortlisted, Interview, Selected, and Rejected stages.
-
----
-
-## 💼 3. Job Management
-
-Recruiters can manage their active job postings from a dedicated, powerful interface.
-
-<div align="center">
-  <img src="Images/06_recruiter_jobs.png" alt="Recruiter Job Management" width="850" style="border-radius: 8px;" />
-</div>
-
-**Highlights:**
-* Recruiters can effortlessly Create, Edit, Publish, Close, and Delete jobs.
-* Backend data-ownership checks strictly ensure that recruiters can only modify their *own* job postings.
-
----
-
-## 👥 4. Application & Interview Management
-
-Recruiters can meticulously track applications submitted to their job postings.
-
-<div align="center">
-  <img src="Images/09_recruiter_applications.png" alt="Recruiter Application Management" width="420" style="border-radius: 8px; display: inline-block; margin-right: 10px;" />
-  <img src="Images/11_recruiter_interviews.png" alt="Recruiter Interview Management" width="420" style="border-radius: 8px; display: inline-block;" />
-</div>
-
-**Highlights:**
-* Review comprehensive application details and instantly view uploaded PDF resumes.
-* Update application statuses (Shortlisted, Interview, Selected) from dynamic dropdowns.
-* Track all scheduled upcoming interviews.
-
----
-
-## 📅 5. Seamless Interview Scheduling
-
-Recruiters can schedule interviews directly from the application management interface via a premium modal.
-
-<div align="center">
-  <img src="Images/10_recruiter_interview_modal.png" alt="Interview Scheduling Modal" width="850" style="border-radius: 8px;" />
-</div>
-
-**Highlights:**
-* Easily set the Interview Date, Time, Mode (Online/In-person), and Meeting Link.
-* Once scheduled, the application instantly moves to the **Interview** stage, and a live notification is sent to the job seeker.
-
----
-
-## 🔎 6. Job Search & Discovery
-
-Job seekers can browse available opportunities through a lightning-fast discovery interface.
-
-<div align="center">
-  <img src="Images/13_seeker_jobs.png" alt="Job Seeker Job Search and Filtering" width="850" style="border-radius: 8px;" />
-</div>
-
-**Highlights:**
-* Seekers can deep-filter jobs based on Title, Location, Salary, Experience, and Employment Type.
-* Uses modern skeleton loaders while fetching data.
-* Implements robust **server-side search, filtering, and pagination** to handle massive data seamlessly.
-
----
-
-## 📝 7. Application Tracking & Dashboards
-
-Job seekers have a personalized dashboard to track their active pipeline.
-
-<div align="center">
-  <img src="Images/19_seeker_dashboard.png" alt="Job Seeker Dashboard" width="850" style="border-radius: 8px; margin-bottom: 10px;" />
-  <img src="Images/14_seeker_job_details.png" alt="Job Details and Application Form" width="420" style="border-radius: 8px; display: inline-block; margin-right: 10px; margin-bottom: 10px;" />
-  <img src="Images/16_seeker_applications.png" alt="Job Seeker Application Tracking" width="420" style="border-radius: 8px; display: inline-block; margin-bottom: 10px;" />
-  <img src="Images/17_seeker_interviews.png" alt="Job Seeker Interview Tracking" width="850" style="border-radius: 8px;" />
-</div>
-
-**Highlights:**
-* Full visibility into complete job descriptions and required skills.
-* Clicking "Apply Now" dynamically scrolls to an integrated application form for PDF resume upload.
-* Seekers can track all applications in real-time without ever needing to email a recruiter manually.
-
----
-
-## 🔔 8. Real-Time Notifications
-
-HireTrack provides beautiful in-app notifications for important recruitment events.
-
-<div align="center">
-  <img src="Images/12_recruiter_notifications.png" alt="Recruiter Notifications" width="270" style="border-radius: 8px; display: inline-block; margin-right: 10px;" />
-  <img src="Images/18_seeker_notifications.png" alt="Job Seeker Notifications" width="270" style="border-radius: 8px; display: inline-block;" />
-</div>
-
-**Highlights:**
-* Notifications poll silently and display a red unread badge when triggered.
-* Seekers are notified immediately upon application status changes or scheduled interviews.
-* Recruiters are notified instantly when a candidate submits an application.
-
----
-
-## ✅ 9. Edge Cases & Validation
-
-A premium application handles edge cases flawlessly. HireTrack validates user input vigorously on both the frontend and backend.
-
-<div align="center">
-  <img src="Images/03_register_validation_errors.png" alt="Registration Validation Errors" width="270" style="border-radius: 8px; display: inline-block; margin-right: 5px; margin-bottom: 10px;" />
-  <img src="Images/08_recruiter_create_job_errors.png" alt="Create Job Validation Errors" width="270" style="border-radius: 8px; display: inline-block; margin-right: 5px; margin-bottom: 10px;" />
-  <img src="Images/15_seeker_apply_form_errors.png" alt="Job Application Validation Errors" width="270" style="border-radius: 8px; display: inline-block; margin-bottom: 10px;" />
-  <img src="Images/07_recruiter_edit_job.png" alt="Recruiter Edit Job Modal" width="270" style="border-radius: 8px; display: inline-block;" />
-</div>
-
-**Highlights:**
-* Powered by `react-hook-form`, forms check PDF sizes, emails, passwords, and required fields *before* hitting the server.
-* Complex modals dynamically pre-populate data instantly without page reloads.
+| Core Module & Interface | Visual Preview | Technical Features & Capabilities |
+| :--- | :--- | :--- |
+| **Authentication & RBAC**<br>Secure login, registration, and role routing | <img src="Images/01_landing.png" width="200" style="border-radius: 8px; margin-bottom: 5px;"/> <img src="Images/04_login.png" width="200" style="border-radius: 8px; margin-bottom: 5px;"/><br><img src="Images/02_register.png" width="200" style="border-radius: 8px;"/> <img src="Images/20_register_recruiter.png" width="200" style="border-radius: 8px;"/> | • **Stateless JWT:** Bulletproof authentication mechanism.<br>• **Role-Based Access Control (RBAC):** Instantly routes users to Recruiter or Seeker views.<br>• **Security:** Bcrypt password hashing and protected API routes. |
+| **Recruiter Dashboard**<br>Comprehensive analytics pipeline | <img src="Images/05_recruiter_dashboard.png" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/> | • **Data Visualization:** Built with Recharts to beautifully display pipeline metrics.<br>• **Pipeline Metrics:** Displays Total Jobs, Published Jobs, and visualizes candidate distribution across Applied, Interview, and Selected stages. |
+| **Job Management**<br>Create, edit, and publish job postings | <img src="Images/06_recruiter_jobs.png" width="400" style="border-radius: 8px;"/> | • **Seamless Control:** Recruiters can effortlessly Create, Edit, Publish, Close, and Delete jobs.<br>• **Authorization:** Strict backend data-ownership checks ensure recruiters only modify their own postings. |
+| **Application Tracking**<br>Review applicants and track statuses | <img src="Images/09_recruiter_applications.png" width="195" style="border-radius: 8px;"/> <img src="Images/11_recruiter_interviews.png" width="195" style="border-radius: 8px;"/> | • **Rich Profiles:** Review comprehensive application details and instantly view uploaded PDF resumes.<br>• **Dynamic Pipeline:** Update application statuses (Shortlisted, Interview, Selected) from dynamic dropdowns.<br>• **Interview Tracking:** Track all upcoming scheduled interviews in one place. |
+| **Interview Scheduling**<br>Dynamic modal scheduling integration | <img src="Images/10_recruiter_interview_modal.png" width="400" style="border-radius: 8px;"/> | • **Premium Modals:** Easily set the Interview Date, Time, Mode (Online/In-person), and Meeting Link.<br>• **Automated Pipeline:** Once scheduled, the application instantly moves to the Interview stage, triggering live notifications. |
+| **Job Discovery & Filtering**<br>Lightning-fast search and pagination | <img src="Images/13_seeker_jobs.png" width="400" style="border-radius: 8px;"/> | • **Deep Filtering:** Filter by Title, Location, Salary, Experience, and Employment Type.<br>• **Server-Side Operations:** Implements robust server-side search and pagination for massive scalability.<br>• **UX:** Modern skeleton loaders ensure a premium feel while fetching data. |
+| **Seeker Dashboards**<br>Personalized candidate portal | <img src="Images/19_seeker_dashboard.png" width="400" style="border-radius: 8px; margin-bottom: 5px;"/><br><img src="Images/14_seeker_job_details.png" width="195" style="border-radius: 8px;"/> <img src="Images/16_seeker_applications.png" width="195" style="border-radius: 8px;"/><br><img src="Images/17_seeker_interviews.png" width="400" style="border-radius: 8px;"/> | • **Integrated Apply:** Clicking "Apply Now" scrolls dynamically to an integrated application form for PDF resume upload.<br>• **Real-Time Tracking:** Seekers track all applications and upcoming interviews in real-time without ever emailing a recruiter. |
+| **Real-Time Notifications**<br>Live alerts and polling | <img src="Images/12_recruiter_notifications.png" width="195" style="border-radius: 8px;"/> <img src="Images/18_seeker_notifications.png" width="195" style="border-radius: 8px;"/> | • **Live Polling:** Notifications poll silently and display a red unread badge when triggered.<br>• **Instant Alerts:** Seekers are notified on status changes; Recruiters are alerted upon new inbound applications. |
+| **Validation & Edge Cases**<br>Strict input sanitization & errors | <img src="Images/03_register_validation_errors.png" width="195" style="border-radius: 8px; margin-bottom: 5px;"/> <img src="Images/08_recruiter_create_job_errors.png" width="195" style="border-radius: 8px; margin-bottom: 5px;"/><br><img src="Images/15_seeker_apply_form_errors.png" width="195" style="border-radius: 8px;"/> <img src="Images/07_recruiter_edit_job.png" width="195" style="border-radius: 8px;"/> | • **Client-Side:** Powered by `react-hook-form`, forms check PDF sizes, emails, and passwords before hitting the server.<br>• **Server-Side:** Redundant strict schema validations via Mongoose.<br>• **Dynamic Data:** Complex modals dynamically pre-populate existing data instantly. |
 
 ---
 
