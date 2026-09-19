@@ -108,9 +108,8 @@ HireTrack follows a strict, modular full-stack architecture ensuring decoupled a
 
 # 🗂️ Project Structure
 
-```text
-HireTrack-Job-Portal/
-│
+```bash
+.
 ├── client/                 # React frontend application
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
@@ -124,7 +123,8 @@ HireTrack-Job-Portal/
 │   │   ├── services/       # API integration and Axios setup
 │   │   ├── utils/          # Helper functions
 │   │   └── App.jsx         # Main React application component
-│   │
+│   │   .
+│   │   .
 │   └── package.json        # Frontend dependencies
 │
 ├── server/                 # Node.js/Express backend API
@@ -139,7 +139,8 @@ HireTrack-Job-Portal/
 │   ├── uploads/            # Temporary storage for uploaded resumes
 │   ├── server.js           # Backend entry point
 │   └── package.json        # Backend dependencies
-│
+│   .
+│   .
 ├── Images/                 # Documentation and README assets
 ├── .gitignore              # Git ignored files
 └── README.md               # Project documentation
