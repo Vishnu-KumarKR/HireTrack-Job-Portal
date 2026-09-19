@@ -48,7 +48,7 @@ Below are some screenshots showing the features and layout of the system:
 ### Job Seeker Experience
 <img src="Images/19_seeker_dashboard.png" width="200">&nbsp;&nbsp;<img src="Images/13_seeker_jobs.png" width="200">&nbsp;&nbsp;<img src="Images/14_seeker_job_details.png" width="200">&nbsp;&nbsp;<img src="Images/16_seeker_applications.png" width="200">
 <br><br>
-<img src="Images/17_seeker_interviews.png" width="200">
+<img src="Images/17_seeker_interviews.png" width="200">&nbsp;&nbsp;<img src="Images/18_seeker_notifications.png" width="200">
 
 ### Validation & Edge Cases
 <img src="Images/03_register_validation_errors.png" width="200">&nbsp;&nbsp;<img src="Images/08_recruiter_create_job_errors.png" width="200">
