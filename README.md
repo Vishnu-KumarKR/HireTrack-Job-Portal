@@ -22,15 +22,19 @@ The platform provides deeply tailored experiences for both **Job Seekers** and *
 - **Recruiters** can seamlessly create and manage job postings, review rich applicant profiles, manage candidate pipeline statuses, schedule interviews via dynamic modals, and monitor entire recruitment statistics through a dedicated dashboard.
 
 The project is highly focused on:
-* Secure, stateless JWT authentication
-* Strict role-based authorization (RBAC)
-* Seamless job discovery and filtering
-* Comprehensive application tracking
-* Real-time interview scheduling
-* Interactive in-app notifications
-* Server-side pagination and performance
-* Bulletproof input validation
-* A premium, responsive UI/UX
+* **Authentication:** User registration and login with JWT-based authentication.
+* **User Roles:** Job Seeker and Recruiter with role-based access.
+* **Job Management:** Recruiters can create, update, publish, and close job postings.
+* **Job Search:** Job seekers can search and filter jobs by title, location, experience, salary, and employment type.
+* **Job Application:** Job seekers can apply for jobs by submitting their resume and required details.
+* **Application Tracking:** Applicants can view their application status, such as Applied, Shortlisted, Interview, Selected, or Rejected.
+* **Recruiter Dashboard:** Recruiters can view jobs, applicants, and application statistics.
+* **Applicant Management:** Recruiters can review applicant profiles, resumes, and update application status.
+* **Interview Management:** Recruiters can schedule interviews with applicants and store interview details.
+* **Notifications:** Notify users when an application status is changed or an interview is scheduled.
+* **Pagination & Filtering:** Implement server-side pagination, search, sorting, and filtering for jobs and applications.
+* **Security:** Implement proper authorization, input validation, file validation, and secure API handling.
+* **UI:** Build a responsive and user-friendly React interface for both job seekers and recruiters.
 
 ---
 
