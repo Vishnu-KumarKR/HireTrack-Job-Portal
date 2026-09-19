@@ -52,7 +52,6 @@ Below are some screenshots showing the features and layout of the system:
 <img src="Images/16_seeker_applications.png" width="200">
 <img src="Images/17_seeker_interviews.png" width="200">
 <img src="Images/12_recruiter_notifications.png" width="200">
-<img src="Images/18_seeker_notifications.png" width="200">
 <img src="Images/03_register_validation_errors.png" width="200">
 <img src="Images/08_recruiter_create_job_errors.png" width="200">
 <img src="Images/07_recruiter_edit_job.png" width="200">
